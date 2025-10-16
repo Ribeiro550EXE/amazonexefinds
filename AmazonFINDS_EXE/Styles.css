@@ -1,0 +1,264 @@
+.body {
+  font-size: 15px;
+  background-color: yellow;
+}
+
+.card-holder {
+  margin: 2em 0;
+}
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  height: 4em;
+  width: 64em;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: -2px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card .subtle {
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.card i {
+  font-size: 3em;
+}
+
+.bg-quad {
+  color: #fff;
+  background: -webkit-linear-gradient(135deg, #ff6b6b 0% 25%, #ffd93d 25% 50%, #6bf178 50% 75%, #6b8cff 75% 100%);
+  background: -o-linear-gradient(135deg, #ff6b6b 0% 25%, #ffd93d 25% 50%, #6bf178 50% 75%, #6b8cff 75% 100%);
+  background: -moz-linear-gradient(135deg, #ff6b6b 0% 25%, #ffd93d 25% 50%, #6bf178 50% 75%, #6b8cff 75% 100%);
+  background: linear-gradient(135deg, #ff6b6b 0% 25%, #ffd93d 25% 50%, #6bf178 50% 75%, #6b8cff 75% 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-blue {
+  background: -webkit-linear-gradient(110deg, #00d2ff 60%, #3a47d5 60%);
+  background: -o-linear-gradient(110deg, #00d2ff 60%, #3a47d5 60%);
+  background: -moz-linear-gradient(110deg, #00d2ff 60%, #3a47d5 60%);
+  background: linear-gradient(110deg, #00d2ff 60%, #3a47d5 60%);
+}
+.bg-red {
+  background: -webkit-linear-gradient(110deg, #ff512f 60%, #dd2476 60%);
+  background: -o-linear-gradient(110deg, #ff512f 60%, #dd2476 60%);
+  background: -moz-linear-gradient(110deg, #ff512f 60%, #dd2476 60%);
+  background: linear-gradient(110deg, #ff512f 60%, #dd2476 60%);
+}
+.bg-green {
+  background: -webkit-linear-gradient(110deg, #11998e 60%, #38ef7d 60%);
+  background: -o-linear-gradient(110deg, #11998e 60%, #38ef7d 60%);
+  background: -moz-linear-gradient(110deg, #11998e 60%, #38ef7d 60%);
+  background: linear-gradient(110deg, #11998e 60%, #38ef7d 60%);
+}
+.bg-gold {
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.bg-yellow {
+  background: -webkit-linear-gradient(110deg, #f7971e 60%, #ffd200 60%);
+  background: -o-linear-gradient(110deg, #f7971e 60%, #ffd200 60%);
+  background: -moz-linear-gradient(110deg, #f7971e 60%, #ffd200 60%);
+  background: linear-gradient(110deg, #f7971e 60%, #ffd200 60%);
+}
+
+.bg-news {
+  background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+}
+
+/*  */
+
+.bg-germany {
+    color: #fff;
+    background: -webkit-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: -o-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: -moz-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+}
+
+.bg-aurora {
+    color: #fff;
+    background: -webkit-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -o-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -moz-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+  background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;
+}
+
+.bg-germany {
+    color: #fff;
+    background: -webkit-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: -o-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: -moz-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+    background: linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+}
+/* France: vertical blue-white-red */
+.bg-france{
+  color: #000;
+  background: linear-gradient(90deg, #0055A4 0% 33.3333%, #ffffff 33.3333% 66.6666%, #EF4135 66.6666% 100%);
+  background-size: cover;
+  background-position: center;
+}
+/* Italy: vertical green-white-red */
+.bg-italy{
+  color: #000;
+  background: linear-gradient(90deg, #009246 0% 33.3333%, #ffffff 33.3333% 66.6666%, #CE2B37 66.6666% 100%);
+  background-size: cover;
+  background-position: center;
+}
+/* Portugal (left) + Spain (right) combination:
+   left 40% shows Portugal's green/red vertical split,
+   right 60% shows Spain's red-yellow-red horizontal bands */
+.bg-portugal-spain{
+  color: #fff;
+  background:
+    linear-gradient(90deg, #006600 0 50%, #CC0000 50% 100%) left/40% 100% no-repeat,
+    linear-gradient(180deg, #AA0000 0 25%, #FFC400 25% 75%, #AA0000 75% 100%) right/60% 100% no-repeat;
+  background-color: transparent;
+  background-position: left top, right top;
+}
+/* Portugal: vertical green (40%) + red (60%) */
+.bg-portugal{
+  color: #fff;
+  background: linear-gradient(90deg, #006600 0% 40%, #CC0000 40% 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Spain: horizontal red (top) - yellow (middle) - red (bottom) */
+.bg-spain{
+  color: #000;
+  background: linear-gradient(180deg, #AA0000 0% 25%, #FFC400 25% 75%, #AA0000 75% 100%);
+  background-size: cover;
+  background-position: center;
+}
+/* USA: simplified - blue canton at top-left and 13 stripes */
+.bg-usa{
+  color: #fff;
+  background:
+    linear-gradient(#3C3B6E 0 100%) left top / 40% 45% no-repeat,
+    repeating-linear-gradient(180deg, #B22234 0 7.6923%, #ffffff 7.6923% 15.3846%);
+  background-color: #ffffff;
+  background-position: left top, 0 0;
+  background-size: 40% 45%, auto;
+  background-repeat: no-repeat;
+}
+
+.bg-purple {
+    color: #fff;
+    background: -webkit-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -o-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+}
+
+.bg-spring {
+    background: -webkit-linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+    background: -o-linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+    background: -moz-linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+    background: linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+}
+
+
+/* Code for Neon Sign Effect */
+
+.neon {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+  animation: neonPulse 1.5s ease-in-out infinite alternate;
+}
+
+#frame {
+  padding: 50px;
+  border: 5px solid lighten($blue, 30%);
+  border-radius: 15px;
+  color: #fff;
+  transform: skewX(-6deg);
+  animation: frame 3s linear infinite;
+}
+
+#text {
+  text-align: center;
+  font-size: 140px;
+  font-weight: 300;
+  letter-spacing: 15px;
+  color: lighten($green, 30%);
+  animation: text 3s linear infinite;
+}
+
+@keyframes text {
+  0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
+    text-shadow: 0 0 30px $green;
+  }
+  21.8%, 23.8%, 66.8%, 84.8% {
+    text-shadow: none;
+  }
+}
+
+@keyframes frame {
+  0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
+    box-shadow: 0 0 60px $blue, 0 0 50px $blue inset;
+  }
+  21.8%, 23.8%, 66.8%, 84.8% {
+    box-shadow: none;
+  }
+}
+#frame {
+  padding: 50px;
+  border: 5px solid lighten($blue, 30%);
+  border-radius: 15px;
+  color: #fff;
+  transform: skewX(-6deg);
+  animation: frame 3s linear infinite;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Farsan&family=Kite+One&display=swap');
+
+$green: #8FDA25;
+$blue: #258FDA;
+
+#text {
+  text-align: center;
+  font-size: 140px;
+  font-weight: 300;
+  letter-spacing: 15px;
+  color: lighten($green, 30%);
+  animation: text 3s linear infinite;
+}
+
+@keyframes text {
+  0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
+    text-shadow: 0 0 30px $green;
+  }
+  21.8%, 23.8%, 66.8%, 84.8% {
+    text-shadow: none;
+  }
+}
+
+@keyframes frame {
+  0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
+    box-shadow: 0 0 60px $blue, 0 0 50px $blue inset;
+  }
+  21.8%, 23.8%, 66.8%, 84.8% {
+    box-shadow: none;
+  }
+}
